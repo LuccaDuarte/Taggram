@@ -1,0 +1,747 @@
+.body {
+  background-color: #FAFAFA;
+}
+
+.header {
+  background-color: #FFF;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.header__container {
+  display: flex;
+  max-width: 933px;
+  margin: 0 auto;
+}
+
+.current-user {
+  margin-left: auto;
+  padding: 15px 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.current-user__username {
+  color: #262626;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 12px;
+}
+
+.current-user__avatar {
+  height: 22px;
+  width: 22px;
+  background-color: #DBDBDB;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.taggram{
+  position: absolute;
+width: 82px;
+height: 29px;
+left: 108px;
+top: 15px;
+border: 0.3px solid #000000;
+border-style: dashed;
+}
+
+.post{
+  position: absolute;
+  width: 933px;
+  height: 498px;
+  left: 200px;
+  top: 74px;
+  background: #FFFFFF;
+  border: 1px solid #DBDBDB;
+  border-radius: 3px;
+}
+
+.photo{
+  position: absolute;
+  width: 598px;
+  height: 498px;
+  left: 0px;
+  top: 0px;
+}
+
+.linhaPost{
+  position: absolute;
+  width: 1px;
+  height: 498px;
+  left: 598px;
+  top: 0px;
+  background: #EFEFEF;
+}
+
+.headerPost{
+  position: absolute;
+width: 334px;
+height: 73px;
+left: 599px;
+top: 0px;
+background: #FFFFFF;
+}
+.authorAvatar{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 16px;
+  bottom: 21px;
+  border-radius: 32px;
+}
+
+.authorInfo{
+  position: absolute;
+width: 106px;
+height: 35px;
+left: 64px;
+top: 19px;
+}
+.nameAuthor{
+  position: absolute;
+  width: 34px;
+  height: 18px;
+  left: 65px;
+  bottom: 36px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+/* identical to box height, or 129% */
+  color: #262626;
+}
+
+.cityAuthor{
+  position: absolute;
+width: 106px;
+height: 15px;
+left: 65px;
+bottom: 19px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height, or 125% */
+
+
+color: #262626;
+}
+
+.linhaAuthor{
+  position: absolute;
+width: 334px;
+height: 1px;
+left: 0px;
+bottom: 0px;
+top: 60px;
+background: #EFEFEF;
+}
+
+.footerPost{
+  position: absolute;
+  width: 334px;
+  height: 117px;
+  left: 599px;
+  top: 381px;
+  background: #FFFFFF;
+}
+
+.linhaFooter{
+  position: absolute;
+  width: 334px;
+  height: 1px;
+  left: 0px;
+  top: 0px;
+
+  background: #EFEFEF;
+}
+
+.estatisticas{
+  position: absolute;
+  width: 103px;
+  height: 40px;
+  left: 16px;
+  top: 13px;
+}
+
+.estatisticas1{
+  position: absolute;
+  width: 103px;
+  height: 18px;
+  left: 16px;
+  top: 13px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+/* identical to box height, or 129% */
+  color: #262626;
+}
+
+.estatisticas2{
+  position: absolute;
+  width: 76px;
+  height: 18px;
+  left: 16px;
+  top: 35px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 18px;
+  /* identical to box height, or 180% */
+
+  text-transform: uppercase;
+
+  color: #8E8E8E;
+}
+
+.linhaFooter2{
+  position: absolute;
+  width: 334px;
+  height: 1px;
+  left: 0px;
+  top: 61px;
+
+  background: #EFEFEF;
+}
+
+.comentario{
+  position: absolute;
+  width: 253px;
+  height: 18px;
+  left: 16px;
+  top: 80px;
+  border: 0;
+}
+
+.enviar{
+  position: absolute;
+  width: 55px;
+  height: 18px;
+  left: 276px;
+  top: 80px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  text-align: right;
+  color: #0095F6;
+  background-color: white;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+  background-color: #0bd9e0;
+  border-radius: 20px;
+}
+
+.enviar:active {
+  background-color: lightblue;
+  transform: translateY(4px);
+}
+.comment-list{
+  position: absolute;
+  width: 334px;
+  height: 306px;
+  left: 599px;
+  top: 70px;
+  overflow-y: scroll;
+}
+
+.comment0{ 
+  position: absolute;
+  width: 334px;
+  height: 84px;
+  left: 0px;
+  top: 456px;
+  /* Inside Auto Layout */
+  flex: none;
+  order: 5;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.nameComment0{
+  position: absolute;
+  width: 252px;
+  height: 18px;
+  left: 66px;
+  top: 12px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+  color: #262626;
+}
+
+.hourComment0{
+  position: absolute;
+width: 16px;
+height: 18px;
+left: 66px;
+top: 60px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+color: #8E8E8E;
+}
+
+.authorComment0{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 16px;
+  top: 12px;
+
+  border-radius: 32px;
+}
+
+.comment1{
+  position: absolute;
+width: 334px;
+height: 84px;
+left: 0px;
+top: 372px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 4;
+align-self: center;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.nameComment1{
+  position: absolute;
+width: 252px;
+height: 18px;
+left: 66px;
+top: 12px;
+
+font-family: Arial;
+font-style: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+color: #262626;
+}
+
+.hourComment1{
+  position: absolute;
+width: 16px;
+height: 18px;
+left: 66px;
+top: 60px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+color: #8E8E8E;
+}
+
+.authorComment1{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 16px;
+  top: 12px;
+
+  border-radius: 32px;
+}
+
+.comment2{
+  position: absolute;
+width: 334px;
+height: 84px;
+left: 0px;
+top: 288px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 3;
+align-self: center;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.nameComment2{
+  position: absolute;
+width: 252px;
+height: 18px;
+left: 66px;
+top: 12px;
+
+font-family: Arial;
+font-style: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #262626;
+}
+.hourComment2{
+  position: absolute;
+width: 16px;
+height: 18px;
+left: 66px;
+top: 60px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #8E8E8E;
+}
+
+.authorComment2{
+  position: absolute;
+width: 32px;
+height: 32px;
+left: 16px;
+top: 12px;
+
+border-radius: 32px;
+}
+
+.comment3{
+  position: absolute;
+  width: 334px;
+  height: 84px;
+  left: 0px;
+  top: 204px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.nameComment3{
+  position: absolute;
+  width: 252px;
+  height: 18px;
+  left: 66px;
+  top: 12px;
+  
+
+  font-family: Arial;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* identical to box height, or 129% */
+
+
+  color: #262626;
+}
+
+.hourComment3{
+  position: absolute;
+width: 16px;
+height: 18px;
+left: 66px;
+top: 60px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #8E8E8E;
+}
+
+.authorComment3{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 16px;
+  top: 12px;
+  
+  border-radius: 32px;
+}
+.comment4{
+  position: absolute;
+  width: 334px;
+  height: 120px;
+  left: 0px;
+  top: 84px;
+
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.nameComment4{
+  position: absolute;
+  width: 253px;
+  height: 54px;
+  left: 66px;
+  top: 12px;
+
+  font-family: Arial;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 18px;
+  /* or 129% */
+
+
+  color: #262626;
+}
+
+.hourComment4{
+  position: absolute;
+width: 16px;
+height: 18px;
+left: 66px;
+top: 82px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #8E8E8E;
+
+}
+
+.authorComment4{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: 16px;
+  top: 12px;
+
+  border-radius: 32px;
+}
+
+.comment5{
+  position: static;
+width: 334px;
+height: 84px;
+left: 0px;
+top: 0px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.nameComment5{
+  
+position: absolute;
+width: 252px;
+height: 18px;
+left: 66px;
+top: 12px;
+
+font-family: Arial;
+font-style: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #262626;
+}
+
+.hourComment5{
+  position: absolute;
+width: 16px;
+height: 18px;
+left: 66px;
+top: 60px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #8E8E8E;
+}
+
+.authorComment5{
+  position: absolute;
+width: 32px;
+height: 32px;
+left: 16px;
+top: 12px;
+
+border-radius: 32px;
+}
+
+.comment6{
+  position: absolute;
+width: 334px;
+height: 84px;
+left: 0px;
+top: 530px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.nameComment6{
+  
+position: absolute;
+width: 252px;
+height: 18px;
+left: 66px;
+top: 12px;
+
+font-family: Arial;
+font-style: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #262626;
+}
+
+.hourComment6{
+  position: absolute;
+width: 16px;
+height: 18px;
+left: 66px;
+top: 60px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #8E8E8E;
+}
+
+.authorComment6{
+  position: absolute;
+width: 32px;
+height: 32px;
+left: 16px;
+top: 12px;
+
+border-radius: 32px;
+}
+.newComment{
+  position: absolute;
+width: 334px;
+height: 84px;
+left: 0px;
+top: 600px;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 0px;
+}
+
+.nameNewComment{
+  
+position: absolute;
+width: 252px;
+height: 18px;
+left: 66px;
+top: 12px;
+
+font-family: Arial;
+font-style: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #262626;
+}
+
+.hourNewComment{
+  position: absolute;
+width: 16px;
+height: 18px;
+left: 66px;
+top: 60px;
+
+font-family: Arial;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+
+color: #8E8E8E;
+}
+
+.authorNewComment{
+  position: absolute;
+width: 32px;
+height: 32px;
+left: 16px;
+top: 12px;
+
+border-radius: 32px;
+}

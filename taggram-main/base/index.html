@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Taggram</title>
+
+    <!-- O normalize ajuda a reduzir a diferença de estilo entre os navegadores -->
+    <link rel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="index.js"></script>
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="header__container">
+        <div class="current-user">
+          <div class="taggram"><img src="Taggram.png"></div>
+          <div class="current-user__username" id="current-user-username"></div>
+          <div class="current-user__avatar" id="current-user-avatar"></div>
+        </div>
+      </div>
+    </header>
+    <div class="post">
+      <div class="photo" id="photo"></div>
+      <hr class="linhaPost">
+      <div class="headerPost">
+        <div class="authorAvatar" id="authorAvatar"></div>
+          <div class="authorInfo"></div>
+          <div class="nameAuthor" id="nameAuthor"></div>
+          <div class="cityAuthor" id="cityAuthor"></div>
+          <hr class="linhaAuthor">
+      </div>
+      <footer class="footerPost">
+        <hr class="linhaFooter">
+        <div class="estatisticas">
+          <div class="estatisticas1" id="estatisticas1"></div>
+          <div class="estatisticas2" id="estatisticas2"></div>
+        </div>
+        <hr class="linhaFooter2">
+          <input type="text" id="comentario" class="comentario">
+          <input type="button" id="enviar" class="enviar" value="Enviar"">
+      </footer>
+      <div class="comment-list">
+        <div class="comment0">
+          <div class="nameComment0" id="nameComment0"></div>
+          <div class="hourComment0" id="hourComment0"></div>
+          <div class="authorComment0" id="authorComment0"></div>
+        </div>
+        <div class="comment1">
+          <div class="nameComment1" id="nameComment1"></div>
+          <div class="hourComment1" id="hourComment1"></div>
+          <div class="authorComment1" id="authorComment1"></div>
+        </div>
+        <div class="comment2">
+          <div class="nameComment2" id="nameComment2"></div>
+          <div class="hourComment2" id="hourComment2"></div>
+          <div class="authorComment2" id="authorComment2"></div>
+        </div>
+        <div class="comment3">
+          <div class="nameComment3" id="nameComment3"></div>
+          <div class="hourComment3" id="hourComment3"></div>
+          <div class="authorComment3" id="authorComment3"></div>
+        </div>
+        <div class="comment4">
+          <div class="nameComment4" id="nameComment4"></div>
+          <div class="hourComment4" id="hourComment4"></div>
+          <div class="authorComment4" id="authorComment4"></div>
+        </div>
+        <div class="comment5">
+          <div class="nameComment5" id="nameComment5"></div>
+          <div class="hourComment5" id="hourComment5"></div>
+          <div class="authorComme5t1" id="authorComment5"></div>
+        </div>
+        <div class="comment6">
+          <div class="nameComment6" id="nameComment6"></div>
+          <div class="hourComment6" id="hourComment6"></div>
+          <div class="authorComment6" id="authorComment6"></div>
+        </div>
+        <div class="newComment">
+          <div class="nameNewComment" id="nameNewComment"></div>
+          <div class="hourNewComment" id="hourNewComment"></div>
+          <div class="authorNewComment" id="authorNewComment"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
